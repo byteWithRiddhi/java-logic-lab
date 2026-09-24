@@ -17,7 +17,6 @@ public class SelectionSort {
             arr[i] = sc.nextInt();
         }
 
-        // Selection Sort Algorithm
         for (int i = 0; i < n - 1; i++) {
 
             int minIndex = i;
@@ -29,7 +28,6 @@ public class SelectionSort {
                 }
             }
 
-            // Swap the minimum element with the first unsorted element
             int temp = arr[i];
             arr[i] = arr[minIndex];
             arr[minIndex] = temp;
