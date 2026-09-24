@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumOfArrayElements {
+public class SumAndAverage {
 
     public static void main(String[] args) {
 
@@ -16,10 +16,13 @@ public class SumOfArrayElements {
 
         for (int i = 0; i < n; i++) {
             numbers[i] = sc.nextInt();
-            sum = sum + numbers[i];
+            sum += numbers[i];
         }
 
+        double average = (double) sum / n;
+
         System.out.println("Sum of array elements: " + sum);
+        System.out.println("Average of array elements: " + average);
 
         sc.close();
     }
