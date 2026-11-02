@@ -18,7 +18,6 @@ public class Print1ToN {
         int n = sc.nextInt();
 
         printNumbers(n);
-
         sc.close();
     }
 }
