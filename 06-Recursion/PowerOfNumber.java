@@ -24,7 +24,6 @@ public class PowerOfNumber {
         } else {
             System.out.println("Result: " + power(base, exponent));
         }
-
         sc.close();
     }
 }
