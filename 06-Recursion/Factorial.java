@@ -21,7 +21,6 @@ public class Factorial {
         } else {
             System.out.println("Factorial: " + factorial(n));
         }
-
         sc.close();
     }
 }
